@@ -1,0 +1,27 @@
+# Arquivos de log e de sistema operacional
+*.log
+.DS_Store
+Thumbs.db
+
+# Diretórios de dependências (boas práticas para o futuro)
+/node_modules/
+/vendor/
+
+# Arquivos de build e pacotes (se você usar um processo de build)
+/build/
+/dist/
+*.zip
+*.tar.gz
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Arquivos de configuração local do WordPress
+wp-config-local.php
+.env
+
+# Arquivos de debug do WordPress
+debug.log
